@@ -2,10 +2,10 @@
   "name": "pastebin-lite",
   "version": "1.0.0",
   "main": "index.js",
-"scripts": {
-  "start": "node index.js",
-  "postinstall": "npm rebuild sqlite3 --build-from-source"
-},
+  "scripts": {
+    "start": "node index.js",
+    "postinstall": "npm rebuild sqlite3 --build-from-source"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -14,7 +14,7 @@
     "cors": "^2.8.6",
     "express": "^5.2.1",
     "sqlite3": "^5.1.7",
-    "uuid": "^13.0.0"
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
     "nodemon": "^3.1.11"
