@@ -1,0 +1,21 @@
+{
+  "name": "pastebin-lite",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+  "start": "node index.js"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "sqlite3": "^5.1.7",
+    "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
